@@ -18,3 +18,4 @@ npx create-expo-app@latest --template expo-router-nativewind-template MyUniversa
 ```
 
 Run `yarn start` to start the server. Works out-of-the-box for web. For iOS, run `npx expo run:ios` and for Android run `npx expo run:android`.
+
