@@ -1,13 +1,9 @@
-import { View, Text  } from '@/src/components/Themed';
+import { Text, View } from 'react-native';
 
-import EditScreenInfo from '@/src/components/EditScreenInfo';
-
-export default function TabOneScreen() {
+export default function HomeScreen() {
   return (
-    <View className="flex flex-1 items-center justify-center">
-      <Text className="text-xl font-bold">Tab One</Text>
-      <View className="my-7 h-[1px] w-[80%] bg-black/10"/>
-      <EditScreenInfo path="src/app/(tabs)/index.tsx" />
+    <View className="flex-1 items-center justify-center bg-white">
+      <Text className="text-blue-600 text-2xl font-bold">✅ Tailwind is working!</Text>
     </View>
   );
 }
